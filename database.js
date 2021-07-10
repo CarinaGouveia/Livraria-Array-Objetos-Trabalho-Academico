@@ -1,0 +1,58 @@
+const livros = [
+{
+ id:1,
+ nome: "Código Limpo",
+ autor: " Robert C. Martin",
+ categoria: "Programação",
+ paginas: 756,
+ recomendo:true,
+ leu:true,
+},
+{
+ id:2,
+ nome:"Ada Lovelace",
+ autor: "Silvia Améia Bim",
+ categoria: "Software",
+ paginas:377,
+ recomendo:true,
+ leu:true,
+},
+{
+ id:3,
+ nome:"Essencialismo",
+ autor: "Greg Mckeown",
+ categoria: "Piscologia",
+ paginas: 311,
+ recomendo:true,
+ leu:false,
+},
+{
+ id:4,
+ nome:"Mindset",
+ autor:"Carol S. Dweck",
+ categoria:"Piscologia",
+ paginas:245,
+ recomendo:true,
+ leu:false,
+},
+{
+ id:5,
+ nome:"Economia do bem comum",
+ autor:"Jean Tirole",
+ categoria:"Economia",
+ paginas:472,
+ recomendo:true,
+ leu:false,
+},
+{
+ id:6,
+ nome:"O valor de tudo",
+ autor:"Mariana Mazzucato",
+ categoria:"Economia",
+ paginas:233,
+ recomendo:false,
+ leu:true,
+},
+]
+
+module.exports = livros
